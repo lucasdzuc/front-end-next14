@@ -1,4 +1,4 @@
-import { dark, light } from "../styles/themes";
+import { dark, light } from "@/styles/themes";
 
 type ThemeType = typeof light;
 

@@ -28,15 +28,14 @@ export default function RootLayout({
     <html lang="pt-BR">
       <StyledComponentsRegistry>
         <CustomThemeProvider>
-        
           {/* className={inter.className} */}
           <body>
   
             <NavBar />
-  
-            {children}
-          </body>
 
+            {children}
+  
+          </body>
         </CustomThemeProvider>
       </StyledComponentsRegistry>
     </html>
